@@ -3669,7 +3669,7 @@ label {
 }
 .accordion-wrap-two .accordion-button:not(.collapsed) {
     color: var(--tg-white);
-    background-color: #1A66FF;
+    background-color: #f37006;
     box-shadow: none;
 }
 .accordion-wrap-two .accordion-button::after {
@@ -7224,7 +7224,6 @@ label {
 .contact-map iframe {
     width: 100%;
     height: 100%;
-    mix-blend-mode: luminosity;
 }
 
 
