@@ -51,7 +51,7 @@
 :root {
     --tg-body-font-family: 'Plus Jakarta Sans', sans-serif;
     --tg-heading-font-family: 'Urbanist', sans-serif;
-    --tg-primary-color: #F39020;
+    --tg-primary-color: #FF9100;
     --tg-secondary-color: #00194C;
     --tg-body-font-color: #687799;
     --tg-heading-font-color: #00194C;
@@ -62,7 +62,7 @@
     --tg-heading-font-weight: 700;
     --tg-body-line-height: 1.7;
     --tg-heading-line-height: 1.2;
-    --tg-blue: #d37306;
+    --tg-blue: #FF6D00;
     --tg-metallic-blue: #324B7D;
     --tg-cornflower-blue: #B3CCFF;
     --tg-steel-blue: #B6C1DB;
