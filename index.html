@@ -61,14 +61,14 @@
                 <nav class="menu-nav">
                   <div class="logo">
                     <a href="index.html"
-                      ><img src="assets/img/logo/logo.png" alt="Logo"
+                      ><img src="assets/img/logo/w_logo.png" alt="Logo"
                     /></a>
                   </div>
                   <div class="navbar-wrap main-menu d-none d-lg-flex">
                     <ul class="navigation white-font">
                       <li class="active"><a href="index.html">Home</a></li>
-                      <li><a href="about.html" >About Us</a></li>
-                      <li><a href="blogs.html" >Blogs</a></li>
+                      <li><a href="about.html">About Us</a></li>
+                      <li><a href="blogs.html">Blogs</a></li>
                       <li><a href="contact.html">contacts</a></li>
                     </ul>
                   </div>
@@ -1278,21 +1278,21 @@
 
     <!-- JS here -->
     <script>
-     
-     window.addEventListener("scroll", function() {
-    var scrollPosition = window.scrollY;
-    var navigationLinks = document.querySelectorAll('.navbar-wrap ul li a');
+      window.addEventListener("scroll", function () {
+        var scrollPosition = window.scrollY;
+        var navigationLinks = document.querySelectorAll(".navbar-wrap ul li a");
+        var logo = document.querySelector(".logo img");
 
-    for (var i = 0; i < navigationLinks.length; i++) {
-        if (scrollPosition > 100) {
-            navigationLinks[i].classList.add('black-text', 'scroll');
-        } else {
-            navigationLinks[i].classList.remove('black-text', 'scroll');
+        for (var i = 0; i < navigationLinks.length; i++) {
+          if (scrollPosition > 100) {
+            navigationLinks[i].classList.add("black-text", "scroll");
+            logo.src = "assets/img/logo/logo.png";
+          } else {
+            navigationLinks[i].classList.remove("black-text", "scroll");
+            logo.src = "assets/img/logo/w_logo.png";
+          }
         }
-    }
-});
-
-
+      });
     </script>
     <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
@@ -1314,6 +1314,5 @@
     <script src="assets/js/aos.js"></script>
     <script src="assets/js/wow.min.js"></script>
     <script src="assets/js/main.js"></script>
-    
   </body>
 </html>
