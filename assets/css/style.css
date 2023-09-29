@@ -560,17 +560,24 @@ label {
 	font-size: 16px;
 	font-weight: bolder;
 	text-transform: capitalize;
-	color: var(--tg-secondary-color);
+	color: white;
 	padding: 40px 15px;
 	display: block;
 	line-height: 1;
 	position: relative;
 	z-index: 1;
 }
-.navbar-wrap > ul > li.active > a,
-.navbar-wrap > ul > li:hover > a {
-	color: var(--tg-primary-color);
+
+.black-text {
+    color: black  !important;
 }
+.navbar-wrap > ul > li.active > a,
+.navbar-wrap > ul > li:hover > a,
+.navbar-wrap > ul > li.scroll > a {
+    color: var(--tg-primary-color) !important;
+}
+
+
 .navbar-wrap > ul > li.menu-item-has-children > a::after {
 	content: "\f107";
 	font-weight: bold !important;
@@ -1695,7 +1702,7 @@ label {
 /* banner-five */
 .banner-area-five {
 	position: relative;
-	background: #F2F7FF;
+	background: #00052c;
 	padding: 140px 0 100px;
 	z-index: 1;
 	overflow: hidden;
@@ -1707,7 +1714,7 @@ label {
 	top: -100px;
 	width: 460px;
 	height: 460px;
-	background: #FBEDFF;
+	background: #bd7100;
 	filter: blur(200px);
 	z-index: -1;
 }
@@ -1727,6 +1734,7 @@ label {
 	margin-bottom: 20px;
 	font-weight: 800;
 	font-size: 50px;
+	color: white;
 }
 .banner-content-five .title span {
 	position: relative;
@@ -1757,6 +1765,7 @@ label {
 }
 .banner-content-five p {
 	margin-bottom: 35px;
+	color: rgb(234, 234, 234);
 }
 .banner-img-five {
 	position: relative;
