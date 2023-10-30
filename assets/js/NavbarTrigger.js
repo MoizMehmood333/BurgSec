@@ -17,5 +17,5 @@ window.addEventListener("scroll", function () {
 var mobileNavigationLinks = document.querySelectorAll(".menu-outer ul li a");
 
 for (var j = 0; j < mobileNavigationLinks.length; j++) {
-  mobileNavigationLinks[j].classList.add("black-text", "scroll");
+  mobileNavigationLinks[j].classList.add("black-text-mobile", "scroll");
 }

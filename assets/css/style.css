@@ -577,6 +577,9 @@ label {
     color: var(--tg-primary-color) !important;
 }
 
+.black-text-mobile {
+    color: black  !important;
+}
 
 .navbar-wrap > ul > li.menu-item-has-children > a::after {
 	content: "\f107";
@@ -1023,6 +1026,13 @@ label {
 	opacity: 1;
 	visibility: visible;
 }
+
+.menu-outer > ul > li.active > a,
+.menu-outer > ul > li:hover > a,
+.menu-outer > ul > li.scroll > a {
+    color: var(--tg-primary-color) !important;
+}
+
 .mobile-menu .close-btn {
     position: absolute;
     right: 15px;
@@ -1055,6 +1065,12 @@ label {
 	padding: 0;
 	margin: 0;
 }
+
+.mobile-menu .navigation ul {
+	padding: 0;
+	margin: 0;
+}
+
 .mobile-menu .navigation li {
 	position: relative;
 	display: block;
