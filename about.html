@@ -838,31 +838,45 @@
             </div>
             <div class="col-lg-7">
               <div class="contact-form">
-                <form action="#">
+                <form
+                  action="https://formsubmit.co/contact-form@sellviollc.com"
+                  method="POST"
+                >
+                  <input type="hidden" name="_captcha" value="false" />
+                  <input
+                    type="hidden"
+                    name="_next"
+                    value="https://sellviollc.com/thanks.html"
+                  />
                   <div class="row">
                     <div class="col-md-6">
                       <div class="form-grp">
-                        <input type="text" placeholder="Name *" />
+                        <input type="text" name="name" placeholder="Name *" />
                       </div>
                     </div>
                     <div class="col-md-6">
                       <div class="form-grp">
-                        <input type="email" placeholder="E-mail *" />
+                        <input
+                          type="email"
+                          name="email"
+                          placeholder="E-mail *"
+                          required
+                        />
                       </div>
                     </div>
                     <div class="col-md-6">
                       <div class="form-grp">
-                        <input type="number" placeholder="Phone *" />
+                        <input name="phone" type="number" placeholder="Phone *" required />
                       </div>
                     </div>
                     <div class="col-md-6">
                       <div class="form-grp">
-                        <input type="text" placeholder="Subject *" />
+                        <input type="text" name="subject" placeholder="Subject *" />
                       </div>
                     </div>
                     <div class="col-md-12">
                       <div class="form-grp">
-                        <textarea placeholder="Comments *"></textarea>
+                        <textarea type="text" name="message" placeholder="Comments *"></textarea>
                       </div>
                     </div>
                   </div>

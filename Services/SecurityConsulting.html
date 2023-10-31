@@ -532,17 +532,43 @@
                 <div class="services-widget">
                   <h4 class="sw-title">Get a Free Quote</h4>
                   <div class="services-widget-form">
-                    <form action="#">
+                    <form
+                      action="https://formsubmit.co/contact-form@sellviollc.com"
+                      method="POST"
+                    >
+                      <input type="hidden" name="_captcha" value="false" />
+                      <input
+                        type="hidden"
+                        name="_next"
+                        value="https://sellviollc.com/thanks.html"
+                      />
                       <div class="form-grp">
-                        <input type="text" placeholder="Your Name" />
+                        <input
+                          type="text"
+                          name="name"
+                          placeholder="Your Name *"
+                        />
                       </div>
                       <div class="form-grp">
-                        <input type="email" placeholder="E-mail Address" />
+                        <input
+                          type="email"
+                          name="email"
+                          placeholder="E-mail Address *"
+                          required
+                        />
+                      </div>
+                      <div class="form-grp">
+                        <input
+                          type="tel"
+                          name="phone"
+                          placeholder="Phone Number"
+                        />
                       </div>
                       <div class="form-grp">
                         <textarea
                           name="message"
-                          placeholder="Type Your Message"
+                          placeholder="Type Your Message *"
+                          required
                         ></textarea>
                       </div>
                       <button type="submit" class="submit-btn">

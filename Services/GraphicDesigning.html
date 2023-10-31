@@ -324,10 +324,7 @@
             <div class="col-71 order-0 order-lg-2">
               <div class="services-details-wrap">
                 <div class="services-details-thumb">
-                  <img
-                    src="/assets/img/Servic/GD1.jpg"
-                    alt=""
-                  />
+                  <img src="/assets/img/Servic/GD1.jpg" alt="" />
                 </div>
                 <div class="services-details-content">
                   <h2 class="title">
@@ -440,16 +437,10 @@
                     </p>
                     <div class="row">
                       <div class="col-md-5 m-1">
-                        <img
-                          src="/assets/img/Servic/GD2.jpg"
-                          alt=""
-                        />
+                        <img src="/assets/img/Servic/GD2.jpg" alt="" />
                       </div>
                       <div class="col-md-5 m-1">
-                        <img
-                          src="/assets/img/Servic/GD3.jpg"
-                          alt=""
-                        />
+                        <img src="/assets/img/Servic/GD3.jpg" alt="" />
                       </div>
                     </div>
                   </div>
@@ -517,17 +508,43 @@
                 <div class="services-widget">
                   <h4 class="sw-title">Get a Free Quote</h4>
                   <div class="services-widget-form">
-                    <form action="#">
+                    <form
+                      action="https://formsubmit.co/contact-form@sellviollc.com"
+                      method="POST"
+                    >
+                      <input type="hidden" name="_captcha" value="false" />
+                      <input
+                        type="hidden"
+                        name="_next"
+                        value="https://sellviollc.com/thanks.html"
+                      />
                       <div class="form-grp">
-                        <input type="text" placeholder="Your Name" />
+                        <input
+                          type="text"
+                          name="name"
+                          placeholder="Your Name *"
+                        />
                       </div>
                       <div class="form-grp">
-                        <input type="email" placeholder="E-mail Address" />
+                        <input
+                          type="email"
+                          name="email"
+                          placeholder="E-mail Address *"
+                          required
+                        />
+                      </div>
+                      <div class="form-grp">
+                        <input
+                          type="tel"
+                          name="phone"
+                          placeholder="Phone Number"
+                        />
                       </div>
                       <div class="form-grp">
                         <textarea
                           name="message"
-                          placeholder="Type Your Message"
+                          placeholder="Type Your Message *"
+                          required
                         ></textarea>
                       </div>
                       <button type="submit" class="submit-btn">
